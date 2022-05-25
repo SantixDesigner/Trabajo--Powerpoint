@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-image: url("../img/fondo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: antiquewhite;
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: burlywood;
+    text-align: center;
+    font-weight: bold;
+}
+main img{
+    width: 50%;
+    margin:auto;
+}
+footer{
+    background-color: brown;
+    text-align: center;
+}
